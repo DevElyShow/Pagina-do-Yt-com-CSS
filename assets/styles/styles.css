@@ -1,0 +1,113 @@
+/* IMportação do RESET */
+@import url(reset.css);
+
+h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 10px;
+}
+h2 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+p{
+    color: #515151;
+}
+header nav{
+    padding: 5px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+main{
+    display: flex;
+    padding-left: 55px;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+/* Elementos do HEADER */
+#logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+#search img {
+    padding: 6px 10px 6px;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC
+}
+#search input{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    min-width: 350px;
+}
+#search input:focus {
+    box-shadow: 0;
+    outline: 0;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+/* Elementos da MAIN */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 20px;
+    gap:16px;
+}
+.video-sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+.video-sidebar article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 6px;
+}
+#video-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width:550px;
+}
+#channel {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
